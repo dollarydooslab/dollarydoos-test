@@ -3,17 +3,17 @@ package daemon
 import (
 	"time"
 
-	"github.com/dollarydooslab/dollarydoos/src/cipher"
-	"github.com/dollarydooslab/dollarydoos/src/coin"
-	"github.com/dollarydooslab/dollarydoos/src/daemon/strand"
-	"github.com/dollarydooslab/dollarydoos/src/util/utc"
-	"github.com/dollarydooslab/dollarydoos/src/visor"
-	"github.com/dollarydooslab/dollarydoos/src/wallet"
+	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
+	"github.com/dollarydooslab/dollarydoos-master/src/coin"
+	"github.com/dollarydooslab/dollarydoos-master/src/daemon/strand"
+	"github.com/dollarydooslab/dollarydoos-master/src/util/utc"
+	"github.com/dollarydooslab/dollarydoos-master/src/visor"
+	"github.com/dollarydooslab/dollarydoos-master/src/wallet"
 
 	"fmt"
 
-	"github.com/dollarydooslab/dollarydoos/src/visor/blockdb"
-	"github.com/dollarydooslab/dollarydoos/src/visor/historydb"
+	"github.com/dollarydooslab/dollarydoos-master/src/visor/blockdb"
+	"github.com/dollarydooslab/dollarydoos-master/src/visor/historydb"
 )
 
 // Exposes a read-only api for use by the gui rpc interface

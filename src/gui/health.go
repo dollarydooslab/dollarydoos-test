@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"time"
 
-	wh "github.com/dollarydooslab/dollarydoos/src/util/http"
-	"github.com/dollarydooslab/dollarydoos/src/visor"
+	wh "github.com/dollarydooslab/dollarydoos-master/src/util/http"
+	"github.com/dollarydooslab/dollarydoos-master/src/visor"
 )
 
 // BlockchainMetadata extends visor.BlockchainMetadata to include the time since the last block

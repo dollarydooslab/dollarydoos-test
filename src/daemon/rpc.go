@@ -4,7 +4,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/dollarydooslab/dollarydoos/src/cipher"
+	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
 )
 
 // Connection a connection's state within the daemon

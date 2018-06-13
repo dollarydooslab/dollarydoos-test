@@ -8,12 +8,12 @@ import (
 	"github.com/boltdb/bolt"
 	"github.com/stretchr/testify/require"
 
-	"github.com/dollarydooslab/dollarydoos/src/cipher"
-	"github.com/dollarydooslab/dollarydoos/src/coin"
-	"github.com/dollarydooslab/dollarydoos/src/daemon/strand"
-	"github.com/dollarydooslab/dollarydoos/src/testutil"
-	"github.com/dollarydooslab/dollarydoos/src/util/fee"
-	"github.com/dollarydooslab/dollarydoos/src/visor"
+	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
+	"github.com/dollarydooslab/dollarydoos-master/src/coin"
+	"github.com/dollarydooslab/dollarydoos-master/src/daemon/strand"
+	"github.com/dollarydooslab/dollarydoos-master/src/testutil"
+	"github.com/dollarydooslab/dollarydoos-master/src/util/fee"
+	"github.com/dollarydooslab/dollarydoos-master/src/visor"
 )
 
 var (

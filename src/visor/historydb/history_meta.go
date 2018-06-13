@@ -5,7 +5,7 @@ import (
 
 	"github.com/boltdb/bolt"
 
-	"github.com/dollarydooslab/dollarydoos/src/visor/bucket"
+	"github.com/dollarydooslab/dollarydoos-master/src/visor/bucket"
 )
 
 var (

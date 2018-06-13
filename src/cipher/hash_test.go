@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/dollarydooslab/dollarydoos/src/cipher/ripemd160"
+	"github.com/dollarydooslab/dollarydoos-master/src/cipher/ripemd160"
 )
 
 func freshSumRipemd160(b []byte) Ripemd160 {

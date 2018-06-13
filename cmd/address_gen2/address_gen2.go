@@ -9,8 +9,8 @@ import (
 	"os"
 	"time"
 
-	bip39 "github.com/dollarydooslab/dollarydoos/src/cipher/go-bip39"
-	"github.com/dollarydooslab/dollarydoos/src/wallet"
+	bip39 "github.com/dollarydooslab/dollarydoos-master/src/cipher/go-bip39"
+	"github.com/dollarydooslab/dollarydoos-master/src/wallet"
 )
 
 type genInfo struct {

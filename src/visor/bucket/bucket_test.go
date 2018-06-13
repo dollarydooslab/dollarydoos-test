@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/dollarydooslab/dollarydoos/src/testutil"
+	"github.com/dollarydooslab/dollarydoos-master/src/testutil"
 )
 
 type person struct {

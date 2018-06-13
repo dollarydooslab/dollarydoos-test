@@ -2,7 +2,7 @@
 
 API default service port is `8640`.
 
-A REST API implemented in Go is available, see [dollarydoos REST API Client Godoc](https://godoc.org/github.com/dollarydooslab/dollarydoos/src/gui#Client).
+A REST API implemented in Go is available, see [dollarydoos REST API Client Godoc](https://godoc.org/github.com/dollarydooslab/dollarydoos-master/src/gui#Client).
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
 

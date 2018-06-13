@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/dollarydooslab/dollarydoos/src/coin"
-	"github.com/dollarydooslab/dollarydoos/src/visor"
+	"github.com/dollarydooslab/dollarydoos-master/src/coin"
+	"github.com/dollarydooslab/dollarydoos-master/src/visor"
 )
 
 // ErrJSONUnmarshal is returned if JSON unmarshal fails

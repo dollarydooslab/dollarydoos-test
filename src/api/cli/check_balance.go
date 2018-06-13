@@ -6,10 +6,10 @@ import (
 
 	gcli "github.com/urfave/cli"
 
-	"github.com/dollarydooslab/dollarydoos/src/api/webrpc"
-	"github.com/dollarydooslab/dollarydoos/src/cipher"
-	"github.com/dollarydooslab/dollarydoos/src/util/droplet"
-	"github.com/dollarydooslab/dollarydoos/src/wallet"
+	"github.com/dollarydooslab/dollarydoos-master/src/api/webrpc"
+	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
+	"github.com/dollarydooslab/dollarydoos-master/src/util/droplet"
+	"github.com/dollarydooslab/dollarydoos-master/src/wallet"
 )
 
 // Balance represents an coin and hours balance

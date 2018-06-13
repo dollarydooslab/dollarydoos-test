@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dollarydooslab/dollarydoos/src/api/webrpc"
-	"github.com/dollarydooslab/dollarydoos/src/testutil"
-	"github.com/dollarydooslab/dollarydoos/src/visor"
+	"github.com/dollarydooslab/dollarydoos-master/src/api/webrpc"
+	"github.com/dollarydooslab/dollarydoos-master/src/testutil"
+	"github.com/dollarydooslab/dollarydoos-master/src/visor"
 )
 
 func TestGetBalanceOfAddresses(t *testing.T) {

@@ -13,11 +13,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dollarydooslab/dollarydoos/src/cipher"
-	"github.com/dollarydooslab/dollarydoos/src/coin"
-	"github.com/dollarydooslab/dollarydoos/src/daemon"
-	"github.com/dollarydooslab/dollarydoos/src/visor"
-	"github.com/dollarydooslab/dollarydoos/src/visor/historydb"
+	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
+	"github.com/dollarydooslab/dollarydoos-master/src/coin"
+	"github.com/dollarydooslab/dollarydoos-master/src/daemon"
+	"github.com/dollarydooslab/dollarydoos-master/src/visor"
+	"github.com/dollarydooslab/dollarydoos-master/src/visor/historydb"
 )
 
 const testWebRPCAddr = "127.0.0.1:8081"

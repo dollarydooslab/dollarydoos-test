@@ -9,15 +9,15 @@ import (
 
 	"github.com/boltdb/bolt"
 
-	"github.com/dollarydooslab/dollarydoos/src/cipher"
-	"github.com/dollarydooslab/dollarydoos/src/coin"
-	"github.com/dollarydooslab/dollarydoos/src/util/droplet"
-	"github.com/dollarydooslab/dollarydoos/src/util/utc"
-	"github.com/dollarydooslab/dollarydoos/src/visor/blockdb"
-	"github.com/dollarydooslab/dollarydoos/src/visor/historydb"
-	"github.com/dollarydooslab/dollarydoos/src/wallet"
+	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
+	"github.com/dollarydooslab/dollarydoos-master/src/coin"
+	"github.com/dollarydooslab/dollarydoos-master/src/util/droplet"
+	"github.com/dollarydooslab/dollarydoos-master/src/util/utc"
+	"github.com/dollarydooslab/dollarydoos-master/src/visor/blockdb"
+	"github.com/dollarydooslab/dollarydoos-master/src/visor/historydb"
+	"github.com/dollarydooslab/dollarydoos-master/src/wallet"
 
-	"github.com/dollarydooslab/dollarydoos/src/util/logging"
+	"github.com/dollarydooslab/dollarydoos-master/src/util/logging"
 )
 
 const (

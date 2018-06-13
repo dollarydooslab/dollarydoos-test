@@ -5,7 +5,7 @@ import (
 
 	gcli "github.com/urfave/cli"
 
-	"github.com/dollarydooslab/dollarydoos/src/api/webrpc"
+	"github.com/dollarydooslab/dollarydoos-master/src/api/webrpc"
 )
 
 func sendCmd() gcli.Command {

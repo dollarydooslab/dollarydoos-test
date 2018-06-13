@@ -3,10 +3,10 @@ package coin
 import (
 	"fmt"
 
-	"github.com/dollarydooslab/dollarydoos/src/cipher"
-	"github.com/dollarydooslab/dollarydoos/src/cipher/encoder"
+	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
+	"github.com/dollarydooslab/dollarydoos-master/src/cipher/encoder"
 
-	"github.com/dollarydooslab/dollarydoos/src/util/logging"
+	"github.com/dollarydooslab/dollarydoos-master/src/util/logging"
 )
 
 var logger = logging.MustGetLogger("coin")

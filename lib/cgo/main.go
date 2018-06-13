@@ -15,7 +15,7 @@ import "C"
 import (
 	"unsafe"
 
-	"github.com/dollarydooslab/dollarydoos/src/cipher"
+	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
 )
 
 /**

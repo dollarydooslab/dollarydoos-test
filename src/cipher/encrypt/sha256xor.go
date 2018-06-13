@@ -11,8 +11,8 @@ import (
 	"io"
 	"math"
 
-	"github.com/dollarydooslab/dollarydoos/src/cipher"
-	secp256k1 "github.com/dollarydooslab/dollarydoos/src/cipher/secp256k1-go"
+	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
+	secp256k1 "github.com/dollarydooslab/dollarydoos-master/src/cipher/secp256k1-go"
 )
 
 const (

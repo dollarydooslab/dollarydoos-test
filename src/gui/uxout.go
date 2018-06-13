@@ -3,9 +3,9 @@ package gui
 import (
 	"net/http"
 
-	"github.com/dollarydooslab/dollarydoos/src/cipher"
-	wh "github.com/dollarydooslab/dollarydoos/src/util/http" //http,json helpers
-	"github.com/dollarydooslab/dollarydoos/src/visor/historydb"
+	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
+	wh "github.com/dollarydooslab/dollarydoos-master/src/util/http" //http,json helpers
+	"github.com/dollarydooslab/dollarydoos-master/src/visor/historydb"
 )
 
 func getUxOutByID(gateway Gatewayer) http.HandlerFunc {

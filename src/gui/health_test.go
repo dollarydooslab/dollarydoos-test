@@ -11,8 +11,8 @@ import (
 	"encoding/json"
 	"net/http/httptest"
 
-	"github.com/dollarydooslab/dollarydoos/src/daemon"
-	"github.com/dollarydooslab/dollarydoos/src/visor"
+	"github.com/dollarydooslab/dollarydoos-master/src/daemon"
+	"github.com/dollarydooslab/dollarydoos-master/src/visor"
 )
 
 func TestHealthCheckHandler(t *testing.T) {

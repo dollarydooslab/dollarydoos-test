@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/dollarydooslab/dollarydoos/src/cipher/encoder"
+	"github.com/dollarydooslab/dollarydoos-master/src/cipher/encoder"
 )
 
 // SendResult result of a single message send

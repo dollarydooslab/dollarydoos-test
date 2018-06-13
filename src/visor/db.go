@@ -11,8 +11,8 @@ import (
 
 	"github.com/boltdb/bolt"
 
-	"github.com/dollarydooslab/dollarydoos/src/cipher"
-	"github.com/dollarydooslab/dollarydoos/src/visor/blockdb"
+	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
+	"github.com/dollarydooslab/dollarydoos-master/src/visor/blockdb"
 )
 
 // loadBlockchain loads blockchain from DB and if any error occurs then delete

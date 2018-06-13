@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/dollarydooslab/dollarydoos/src/cipher"
+	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
 )
 
 // CreateAddresses genCount addresses deterministically from seed.  coinType is either CoinTypeBitcoin or CoinTypedollarydoos.

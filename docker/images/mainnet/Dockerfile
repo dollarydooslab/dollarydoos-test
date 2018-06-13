@@ -1,10 +1,10 @@
 # dollarydoos build
-# reference https://github.com/dollarydooslab/dollarydoos
+# reference https://github.com/dollarydooslab/dollarydoos-master
 FROM golang:1.10 AS build
 
 ARG dollarydoos_VERSION
 
-COPY . $GOPATH/src/github.com/dollarydooslab/dollarydoos
+COPY . $GOPATH/src/github.com/dollarydooslab/dollarydoos-master
 
 # This code checks if dollarydoos_VERSION is set and checkouts to that version if
 # so. The git stash line prevents the build to fail if there are any uncommited
@@ -12,12 +12,12 @@ COPY . $GOPATH/src/github.com/dollarydooslab/dollarydoos
 RUN sh -c \
     'if test ${dollarydoos_VERSION};then \
         echo "Revision is set to: "${dollarydoos_VERSION}; \
-        cd $GOPATH/src/github.com/dollarydooslab/dollarydoos; \
+        cd $GOPATH/src/github.com/dollarydooslab/dollarydoos-master; \
         git stash; \
         git checkout ${dollarydoos_VERSION}; \
      fi'
 
-RUN cd $GOPATH/src/github.com/dollarydooslab/dollarydoos && \
+RUN cd $GOPATH/src/github.com/dollarydooslab/dollarydoos-master && \
   CGO_ENABLED=0 GOOS=linux go install -a -installsuffix cgo ./...
 
 # dollarydoos image
@@ -33,7 +33,7 @@ ENV RPC_ADDR="0.0.0.0:8650" \
 COPY --from=build /go/bin/* /usr/bin/
 
 # copy assets
-COPY --from=build /go/src/github.com/dollarydooslab/dollarydoos/src/gui/static /usr/local/dollarydoos/src/gui/static
+COPY --from=build /go/src/github.com/dollarydooslab/dollarydoos-master/src/gui/static /usr/local/dollarydoos/src/gui/static
 
 # copy launcher
 COPY docker_launcher.sh /usr/local/bin

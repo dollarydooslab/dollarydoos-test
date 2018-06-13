@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/dollarydooslab/dollarydoos/src/cipher/base58"
+	"github.com/dollarydooslab/dollarydoos-master/src/cipher/base58"
 )
 
 /*

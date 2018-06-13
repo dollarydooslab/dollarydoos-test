@@ -2,8 +2,8 @@
 # Skycoin C client library
 
 [![Build Status](https://travis-ci.org/dollarydoos/dollarydoos.svg)](https://travis-ci.org/dollarydoos/dollarydoos)
-[![GoDoc](https://godoc.org/github.com/dollarydooslab/dollarydoos?status.svg)](https://godoc.org/github.com/dollarydooslab/dollarydoos)
-[![Go Report Card](https://goreportcard.com/badge/github.com/dollarydooslab/dollarydoos)](https://goreportcard.com/report/github.com/dollarydooslab/dollarydoos)
+[![GoDoc](https://godoc.org/github.com/dollarydooslab/dollarydoos-master?status.svg)](https://godoc.org/github.com/dollarydooslab/dollarydoos-master)
+[![Go Report Card](https://goreportcard.com/badge/github.com/dollarydooslab/dollarydoos-master)](https://goreportcard.com/report/github.com/dollarydooslab/dollarydoos-master)
 
 Skycoin C client library (a.k.a libdollarydoos) provides access to Skycoin Core
 internal and API functions for implementing third-party applications.

@@ -6,7 +6,7 @@ import (
 	"encoding/hex"
 	"log"
 
-	secp "github.com/dollarydooslab/dollarydoos/src/cipher/secp256k1-go/secp256k1-go2"
+	secp "github.com/dollarydooslab/dollarydoos-master/src/cipher/secp256k1-go/secp256k1-go2"
 )
 
 //intenal, may fail

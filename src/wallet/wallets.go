@@ -10,8 +10,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/dollarydooslab/dollarydoos/src/cipher"
-	"github.com/dollarydooslab/dollarydoos/src/util/file"
+	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
+	"github.com/dollarydooslab/dollarydoos-master/src/util/file"
 )
 
 // Wallets wallets map

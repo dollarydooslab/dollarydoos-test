@@ -5,11 +5,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dollarydooslab/dollarydoos/src/cipher"
-	"github.com/dollarydooslab/dollarydoos/src/testutil"
-	"github.com/dollarydooslab/dollarydoos/src/util/fee"
-	"github.com/dollarydooslab/dollarydoos/src/visor"
-	"github.com/dollarydooslab/dollarydoos/src/wallet"
+	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
+	"github.com/dollarydooslab/dollarydoos-master/src/testutil"
+	"github.com/dollarydooslab/dollarydoos-master/src/util/fee"
+	"github.com/dollarydooslab/dollarydoos-master/src/visor"
+	"github.com/dollarydooslab/dollarydoos-master/src/wallet"
 )
 
 func TestMakeChangeOut(t *testing.T) {

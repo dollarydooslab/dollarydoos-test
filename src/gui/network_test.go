@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dollarydooslab/dollarydoos/src/daemon"
+	"github.com/dollarydooslab/dollarydoos-master/src/daemon"
 )
 
 func TestConnection(t *testing.T) {

@@ -15,14 +15,14 @@ import (
 
 	"encoding/hex"
 
-	"github.com/dollarydooslab/dollarydoos/src/cipher"
-	"github.com/dollarydooslab/dollarydoos/src/coin"
-	"github.com/dollarydooslab/dollarydoos/src/visor/blockdb"
+	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
+	"github.com/dollarydooslab/dollarydoos-master/src/coin"
+	"github.com/dollarydooslab/dollarydoos-master/src/visor/blockdb"
 
 	"github.com/shopspring/decimal"
 
-	"github.com/dollarydooslab/dollarydoos/src/util/fee"
-	"github.com/dollarydooslab/dollarydoos/src/util/logging"
+	"github.com/dollarydooslab/dollarydoos-master/src/util/fee"
+	"github.com/dollarydooslab/dollarydoos-master/src/util/logging"
 )
 
 // Error wraps wallet related errors

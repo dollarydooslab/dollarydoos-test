@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dollarydooslab/dollarydoos/src/cipher"
-	"github.com/dollarydooslab/dollarydoos/src/coin"
-	"github.com/dollarydooslab/dollarydoos/src/util/droplet"
-	"github.com/dollarydooslab/dollarydoos/src/wallet"
+	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
+	"github.com/dollarydooslab/dollarydoos-master/src/coin"
+	"github.com/dollarydooslab/dollarydoos-master/src/util/droplet"
+	"github.com/dollarydooslab/dollarydoos-master/src/wallet"
 )
 
 // BlockchainMetadata encapsulates useful information from the coin.Blockchain

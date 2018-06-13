@@ -3,8 +3,8 @@ package visor
 import (
 	"fmt"
 
-	"github.com/dollarydooslab/dollarydoos/src/coin"
-	"github.com/dollarydooslab/dollarydoos/src/visor/historydb"
+	"github.com/dollarydooslab/dollarydoos-master/src/coin"
+	"github.com/dollarydooslab/dollarydoos-master/src/visor/historydb"
 )
 
 // ParserOption option type which will be used when creating parser instance

@@ -11,12 +11,12 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/dollarydooslab/dollarydoos/src/cipher"
-	"github.com/dollarydooslab/dollarydoos/src/daemon"
-	"github.com/dollarydooslab/dollarydoos/src/util/file"
-	wh "github.com/dollarydooslab/dollarydoos/src/util/http"
-	"github.com/dollarydooslab/dollarydoos/src/util/logging"
-	"github.com/dollarydooslab/dollarydoos/src/wallet"
+	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
+	"github.com/dollarydooslab/dollarydoos-master/src/daemon"
+	"github.com/dollarydooslab/dollarydoos-master/src/util/file"
+	wh "github.com/dollarydooslab/dollarydoos-master/src/util/http"
+	"github.com/dollarydooslab/dollarydoos-master/src/util/logging"
+	"github.com/dollarydooslab/dollarydoos-master/src/wallet"
 )
 
 var (

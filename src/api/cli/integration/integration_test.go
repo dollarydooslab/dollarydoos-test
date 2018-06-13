@@ -22,13 +22,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dollarydooslab/dollarydoos/src/api/cli"
-	"github.com/dollarydooslab/dollarydoos/src/api/webrpc"
-	"github.com/dollarydooslab/dollarydoos/src/cipher"
-	"github.com/dollarydooslab/dollarydoos/src/gui"
-	"github.com/dollarydooslab/dollarydoos/src/util/droplet"
-	"github.com/dollarydooslab/dollarydoos/src/visor"
-	"github.com/dollarydooslab/dollarydoos/src/wallet"
+	"github.com/dollarydooslab/dollarydoos-master/src/api/cli"
+	"github.com/dollarydooslab/dollarydoos-master/src/api/webrpc"
+	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
+	"github.com/dollarydooslab/dollarydoos-master/src/gui"
+	"github.com/dollarydooslab/dollarydoos-master/src/util/droplet"
+	"github.com/dollarydooslab/dollarydoos-master/src/visor"
+	"github.com/dollarydooslab/dollarydoos-master/src/wallet"
 )
 
 const (

@@ -8,10 +8,10 @@ import (
 	"net"
 	"strings"
 
-	"github.com/dollarydooslab/dollarydoos/src/daemon/gnet"
-	"github.com/dollarydooslab/dollarydoos/src/daemon/pex"
-	"github.com/dollarydooslab/dollarydoos/src/util/iputil"
-	"github.com/dollarydooslab/dollarydoos/src/util/utc"
+	"github.com/dollarydooslab/dollarydoos-master/src/daemon/gnet"
+	"github.com/dollarydooslab/dollarydoos-master/src/daemon/pex"
+	"github.com/dollarydooslab/dollarydoos-master/src/util/iputil"
+	"github.com/dollarydooslab/dollarydoos-master/src/util/utc"
 )
 
 // Message represent a packet to be serialized over the network by

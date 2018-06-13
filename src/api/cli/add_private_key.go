@@ -7,8 +7,8 @@ import (
 
 	gcli "github.com/urfave/cli"
 
-	"github.com/dollarydooslab/dollarydoos/src/cipher"
-	"github.com/dollarydooslab/dollarydoos/src/wallet"
+	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
+	"github.com/dollarydooslab/dollarydoos-master/src/wallet"
 )
 
 func addPrivateKeyCmd(cfg Config) gcli.Command {

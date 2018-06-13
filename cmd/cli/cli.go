@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/dollarydooslab/dollarydoos/src/api/cli"
+	"github.com/dollarydooslab/dollarydoos-master/src/api/cli"
 )
 
 func main() {

@@ -8,8 +8,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/util/file"
-	"github.com/dollarydooslab/dollarydoos-master/src/util/utc"
+	"github.com/dollarydooslab/dollarydoos/src/util/file"
+	"github.com/dollarydooslab/dollarydoos/src/util/utc"
 )
 
 // Peers peer list

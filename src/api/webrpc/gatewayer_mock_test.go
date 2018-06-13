@@ -10,11 +10,11 @@ import (
 
 	mock "github.com/stretchr/testify/mock"
 
-	cipher "github.com/dollarydooslab/dollarydoos-master/src/cipher"
-	coin "github.com/dollarydooslab/dollarydoos-master/src/coin"
-	daemon "github.com/dollarydooslab/dollarydoos-master/src/daemon"
-	visor "github.com/dollarydooslab/dollarydoos-master/src/visor"
-	historydb "github.com/dollarydooslab/dollarydoos-master/src/visor/historydb"
+	cipher "github.com/dollarydooslab/dollarydoos/src/cipher"
+	coin "github.com/dollarydooslab/dollarydoos/src/coin"
+	daemon "github.com/dollarydooslab/dollarydoos/src/daemon"
+	visor "github.com/dollarydooslab/dollarydoos/src/visor"
+	historydb "github.com/dollarydooslab/dollarydoos/src/visor/historydb"
 )
 
 // GatewayerMock mock

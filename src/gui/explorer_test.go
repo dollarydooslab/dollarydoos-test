@@ -16,12 +16,12 @@ import (
 
 	"strconv"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
-	"github.com/dollarydooslab/dollarydoos-master/src/daemon"
-	"github.com/dollarydooslab/dollarydoos-master/src/testutil"
-	"github.com/dollarydooslab/dollarydoos-master/src/util/droplet"
-	"github.com/dollarydooslab/dollarydoos-master/src/visor"
-	"github.com/dollarydooslab/dollarydoos-master/src/visor/historydb"
+	"github.com/dollarydooslab/dollarydoos/src/cipher"
+	"github.com/dollarydooslab/dollarydoos/src/daemon"
+	"github.com/dollarydooslab/dollarydoos/src/testutil"
+	"github.com/dollarydooslab/dollarydoos/src/util/droplet"
+	"github.com/dollarydooslab/dollarydoos/src/visor"
+	"github.com/dollarydooslab/dollarydoos/src/visor/historydb"
 )
 
 func makeSuccessCoinSupplyResult(t *testing.T, allUnspents visor.ReadableOutputSet) *CoinSupply {

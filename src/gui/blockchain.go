@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
-	"github.com/dollarydooslab/dollarydoos-master/src/coin"
-	wh "github.com/dollarydooslab/dollarydoos-master/src/util/http"
-	"github.com/dollarydooslab/dollarydoos-master/src/visor" //http,json helpers
+	"github.com/dollarydooslab/dollarydoos/src/cipher"
+	"github.com/dollarydooslab/dollarydoos/src/coin"
+	wh "github.com/dollarydooslab/dollarydoos/src/util/http"
+	"github.com/dollarydooslab/dollarydoos/src/visor" //http,json helpers
 )
 
 func blockchainHandler(gateway Gatewayer) http.HandlerFunc {

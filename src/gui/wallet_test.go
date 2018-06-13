@@ -14,11 +14,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
-	"github.com/dollarydooslab/dollarydoos-master/src/coin"
-	"github.com/dollarydooslab/dollarydoos-master/src/util/fee"
-	"github.com/dollarydooslab/dollarydoos-master/src/visor"
-	"github.com/dollarydooslab/dollarydoos-master/src/wallet"
+	"github.com/dollarydooslab/dollarydoos/src/cipher"
+	"github.com/dollarydooslab/dollarydoos/src/coin"
+	"github.com/dollarydooslab/dollarydoos/src/util/fee"
+	"github.com/dollarydooslab/dollarydoos/src/visor"
+	"github.com/dollarydooslab/dollarydoos/src/wallet"
 )
 
 const configuredHost = "127.0.0.1:8640"

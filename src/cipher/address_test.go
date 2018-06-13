@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher/base58"
+	"github.com/dollarydooslab/dollarydoos/src/cipher/base58"
 )
 
 func TestMustDecodeBase58Address(t *testing.T) {

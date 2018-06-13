@@ -8,8 +8,8 @@ import (
 	"github.com/boltdb/bolt"
 	gcli "github.com/urfave/cli"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
-	"github.com/dollarydooslab/dollarydoos-master/src/visor"
+	"github.com/dollarydooslab/dollarydoos/src/cipher"
+	"github.com/dollarydooslab/dollarydoos/src/visor"
 )
 
 const (

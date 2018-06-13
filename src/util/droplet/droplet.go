@@ -6,7 +6,7 @@ import (
 
 	"github.com/shopspring/decimal"
 
-	logging "github.com/dollarydooslab/dollarydoos-master/src/util/logging"
+	logging "github.com/dollarydooslab/dollarydoos/src/util/logging"
 )
 
 const (

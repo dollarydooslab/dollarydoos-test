@@ -8,7 +8,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
+	"github.com/dollarydooslab/dollarydoos/src/cipher"
 )
 
 // Some bitwise operands for working with big.Ints

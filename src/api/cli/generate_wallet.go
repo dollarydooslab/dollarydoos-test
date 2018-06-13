@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher/go-bip39"
-	secp256k1 "github.com/dollarydooslab/dollarydoos-master/src/cipher/secp256k1-go"
-	"github.com/dollarydooslab/dollarydoos-master/src/wallet"
+	"github.com/dollarydooslab/dollarydoos/src/cipher"
+	"github.com/dollarydooslab/dollarydoos/src/cipher/go-bip39"
+	secp256k1 "github.com/dollarydooslab/dollarydoos/src/cipher/secp256k1-go"
+	"github.com/dollarydooslab/dollarydoos/src/wallet"
 
 	gcli "github.com/urfave/cli"
 )

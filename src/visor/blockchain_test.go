@@ -8,11 +8,11 @@ import (
 
 	"github.com/boltdb/bolt"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
-	"github.com/dollarydooslab/dollarydoos-master/src/coin"
-	"github.com/dollarydooslab/dollarydoos-master/src/testutil"
-	"github.com/dollarydooslab/dollarydoos-master/src/util/utc"
-	"github.com/dollarydooslab/dollarydoos-master/src/visor/blockdb"
+	"github.com/dollarydooslab/dollarydoos/src/cipher"
+	"github.com/dollarydooslab/dollarydoos/src/coin"
+	"github.com/dollarydooslab/dollarydoos/src/testutil"
+	"github.com/dollarydooslab/dollarydoos/src/util/utc"
+	"github.com/dollarydooslab/dollarydoos/src/visor/blockdb"
 )
 
 var (

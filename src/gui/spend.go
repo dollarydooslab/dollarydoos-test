@@ -10,13 +10,13 @@ import (
 
 	"github.com/shopspring/decimal"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
-	"github.com/dollarydooslab/dollarydoos-master/src/coin"
-	"github.com/dollarydooslab/dollarydoos-master/src/util/droplet"
-	"github.com/dollarydooslab/dollarydoos-master/src/util/fee"
-	wh "github.com/dollarydooslab/dollarydoos-master/src/util/http" //http,json helpers
-	"github.com/dollarydooslab/dollarydoos-master/src/visor"
-	"github.com/dollarydooslab/dollarydoos-master/src/wallet"
+	"github.com/dollarydooslab/dollarydoos/src/cipher"
+	"github.com/dollarydooslab/dollarydoos/src/coin"
+	"github.com/dollarydooslab/dollarydoos/src/util/droplet"
+	"github.com/dollarydooslab/dollarydoos/src/util/fee"
+	wh "github.com/dollarydooslab/dollarydoos/src/util/http" //http,json helpers
+	"github.com/dollarydooslab/dollarydoos/src/visor"
+	"github.com/dollarydooslab/dollarydoos/src/wallet"
 )
 
 // CreateTransactionResponse is returned by /wallet/transaction

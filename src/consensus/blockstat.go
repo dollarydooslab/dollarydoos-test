@@ -9,8 +9,8 @@ import (
 	"container/heap"
 	"fmt"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher/secp256k1-go"
+	"github.com/dollarydooslab/dollarydoos/src/cipher"
+	"github.com/dollarydooslab/dollarydoos/src/cipher/secp256k1-go"
 )
 
 ////////////////////////////////////////////////////////////////////////////////

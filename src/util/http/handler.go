@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/util/iputil"
-	"github.com/dollarydooslab/dollarydoos-master/src/util/logging"
+	"github.com/dollarydooslab/dollarydoos/src/util/iputil"
+	"github.com/dollarydooslab/dollarydoos/src/util/logging"
 )
 
 // HostCheck checks that the request's Host header is 127.0.0.1:$port or localhost:$port

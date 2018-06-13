@@ -10,9 +10,9 @@ import (
 	"errors"
 	"math"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher/chacha20poly1305"
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher/scrypt"
+	"github.com/dollarydooslab/dollarydoos/src/cipher"
+	"github.com/dollarydooslab/dollarydoos/src/cipher/chacha20poly1305"
+	"github.com/dollarydooslab/dollarydoos/src/cipher/scrypt"
 )
 
 const (

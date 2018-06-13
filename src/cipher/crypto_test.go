@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher/ripemd160"
+	"github.com/dollarydooslab/dollarydoos/src/cipher/ripemd160"
 )
 
 func TestNewPubKey(t *testing.T) {

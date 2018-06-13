@@ -19,8 +19,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/util/logging"
-	"github.com/dollarydooslab/dollarydoos-master/src/util/utc"
+	"github.com/dollarydooslab/dollarydoos/src/util/logging"
+	"github.com/dollarydooslab/dollarydoos/src/util/utc"
 )
 
 var logger = logging.MustGetLogger("util")

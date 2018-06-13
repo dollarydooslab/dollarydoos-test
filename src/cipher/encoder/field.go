@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
+	"github.com/dollarydooslab/dollarydoos/src/cipher"
 )
 
 // StructField field struct

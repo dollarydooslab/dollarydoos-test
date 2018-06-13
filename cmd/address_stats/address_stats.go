@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
+	"github.com/dollarydooslab/dollarydoos/src/cipher"
 )
 
 func zeroPadding(countLen int, value string) string {

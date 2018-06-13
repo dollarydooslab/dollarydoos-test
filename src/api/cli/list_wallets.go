@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/wallet"
+	"github.com/dollarydooslab/dollarydoos/src/wallet"
 
 	gcli "github.com/urfave/cli"
 )

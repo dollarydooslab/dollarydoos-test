@@ -12,7 +12,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/util/logging"
+	"github.com/dollarydooslab/dollarydoos/src/util/logging"
 )
 
 const (

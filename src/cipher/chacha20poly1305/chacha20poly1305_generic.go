@@ -7,8 +7,8 @@ package chacha20poly1305
 import (
 	"encoding/binary"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher/chacha20poly1305/internal/chacha20"
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher/poly1305"
+	"github.com/dollarydooslab/dollarydoos/src/cipher/chacha20poly1305/internal/chacha20"
+	"github.com/dollarydooslab/dollarydoos/src/cipher/poly1305"
 )
 
 func roundTo16(n int) int {

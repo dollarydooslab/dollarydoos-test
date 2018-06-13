@@ -6,8 +6,8 @@ import (
 	"github.com/boltdb/bolt"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/testutil"
-	"github.com/dollarydooslab/dollarydoos-master/src/visor/bucket"
+	"github.com/dollarydooslab/dollarydoos/src/testutil"
+	"github.com/dollarydooslab/dollarydoos/src/visor/bucket"
 )
 
 func TestNewHistoryMeta(t *testing.T) {

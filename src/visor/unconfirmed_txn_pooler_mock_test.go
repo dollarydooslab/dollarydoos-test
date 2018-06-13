@@ -14,9 +14,9 @@ import (
 
 	bolt "github.com/boltdb/bolt"
 
-	cipher "github.com/dollarydooslab/dollarydoos-master/src/cipher"
-	coin "github.com/dollarydooslab/dollarydoos-master/src/coin"
-	blockdb "github.com/dollarydooslab/dollarydoos-master/src/visor/blockdb"
+	cipher "github.com/dollarydooslab/dollarydoos/src/cipher"
+	coin "github.com/dollarydooslab/dollarydoos/src/coin"
+	blockdb "github.com/dollarydooslab/dollarydoos/src/visor/blockdb"
 )
 
 // UnconfirmedTxnPoolerMock mock

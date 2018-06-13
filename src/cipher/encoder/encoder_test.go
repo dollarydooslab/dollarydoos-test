@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
+	"github.com/dollarydooslab/dollarydoos/src/cipher"
 )
 
 func randBytes(n int) []byte {

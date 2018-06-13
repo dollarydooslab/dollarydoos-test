@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher/encrypt"
+	"github.com/dollarydooslab/dollarydoos/src/cipher/encrypt"
 )
 
 type cryptor interface {

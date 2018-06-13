@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/util/utc"
+	"github.com/dollarydooslab/dollarydoos/src/util/utc"
 )
 
 func TestGenerateCert(t *testing.T) {

@@ -3,7 +3,7 @@ package cli
 import (
 	gcli "github.com/urfave/cli"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/api/webrpc"
+	"github.com/dollarydooslab/dollarydoos/src/api/webrpc"
 )
 
 func statusCmd() gcli.Command {

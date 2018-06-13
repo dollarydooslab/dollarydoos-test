@@ -7,14 +7,14 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher/go-bip39"
+	"github.com/dollarydooslab/dollarydoos/src/cipher"
+	"github.com/dollarydooslab/dollarydoos/src/cipher/go-bip39"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/visor"
-	"github.com/dollarydooslab/dollarydoos-master/src/wallet"
+	"github.com/dollarydooslab/dollarydoos/src/visor"
+	"github.com/dollarydooslab/dollarydoos/src/wallet"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/util/fee"
-	wh "github.com/dollarydooslab/dollarydoos-master/src/util/http" //http,json helpers
+	"github.com/dollarydooslab/dollarydoos/src/util/fee"
+	wh "github.com/dollarydooslab/dollarydoos/src/util/http" //http,json helpers
 )
 
 // HTTP401AuthHeader WWW-Authenticate value

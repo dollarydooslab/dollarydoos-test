@@ -10,10 +10,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher/encoder"
-	"github.com/dollarydooslab/dollarydoos-master/src/testutil"
-	_require "github.com/dollarydooslab/dollarydoos-master/src/testutil/require"
+	"github.com/dollarydooslab/dollarydoos/src/cipher"
+	"github.com/dollarydooslab/dollarydoos/src/cipher/encoder"
+	"github.com/dollarydooslab/dollarydoos/src/testutil"
+	_require "github.com/dollarydooslab/dollarydoos/src/testutil/require"
 )
 
 func makeTransactionFromUxOut(t *testing.T, ux UxOut, s cipher.SecKey) Transaction {

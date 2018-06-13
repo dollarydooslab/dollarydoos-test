@@ -22,12 +22,12 @@ import (
 
 	"github.com/stretchr/testify/mock"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
-	"github.com/dollarydooslab/dollarydoos-master/src/coin"
-	"github.com/dollarydooslab/dollarydoos-master/src/daemon"
-	"github.com/dollarydooslab/dollarydoos-master/src/testutil"
-	"github.com/dollarydooslab/dollarydoos-master/src/util/utc"
-	"github.com/dollarydooslab/dollarydoos-master/src/visor"
+	"github.com/dollarydooslab/dollarydoos/src/cipher"
+	"github.com/dollarydooslab/dollarydoos/src/coin"
+	"github.com/dollarydooslab/dollarydoos/src/daemon"
+	"github.com/dollarydooslab/dollarydoos/src/testutil"
+	"github.com/dollarydooslab/dollarydoos/src/util/utc"
+	"github.com/dollarydooslab/dollarydoos/src/visor"
 )
 
 func createUnconfirmedTxn(t *testing.T) visor.UnconfirmedTxn {

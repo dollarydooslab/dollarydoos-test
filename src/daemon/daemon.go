@@ -10,13 +10,13 @@ import (
 
 	"github.com/boltdb/bolt"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/daemon/gnet"
-	"github.com/dollarydooslab/dollarydoos-master/src/daemon/pex"
+	"github.com/dollarydooslab/dollarydoos/src/daemon/gnet"
+	"github.com/dollarydooslab/dollarydoos/src/daemon/pex"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/util/elapse"
-	"github.com/dollarydooslab/dollarydoos-master/src/util/iputil"
-	"github.com/dollarydooslab/dollarydoos-master/src/util/logging"
-	"github.com/dollarydooslab/dollarydoos-master/src/util/utc"
+	"github.com/dollarydooslab/dollarydoos/src/util/elapse"
+	"github.com/dollarydooslab/dollarydoos/src/util/iputil"
+	"github.com/dollarydooslab/dollarydoos/src/util/logging"
+	"github.com/dollarydooslab/dollarydoos/src/util/utc"
 )
 
 /*

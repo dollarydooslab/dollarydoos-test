@@ -12,12 +12,12 @@ import (
 
 	"io"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher/encoder"
-	"github.com/dollarydooslab/dollarydoos-master/src/daemon/strand"
+	"github.com/dollarydooslab/dollarydoos/src/cipher/encoder"
+	"github.com/dollarydooslab/dollarydoos/src/daemon/strand"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/util/elapse"
-	"github.com/dollarydooslab/dollarydoos-master/src/util/logging"
-	"github.com/dollarydooslab/dollarydoos-master/src/util/utc"
+	"github.com/dollarydooslab/dollarydoos/src/util/elapse"
+	"github.com/dollarydooslab/dollarydoos/src/util/logging"
+	"github.com/dollarydooslab/dollarydoos/src/util/utc"
 )
 
 // DisconnectReason is passed to ConnectionPool's DisconnectCallback

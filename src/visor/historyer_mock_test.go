@@ -10,9 +10,9 @@ import (
 
 	mock "github.com/stretchr/testify/mock"
 
-	cipher "github.com/dollarydooslab/dollarydoos-master/src/cipher"
-	coin "github.com/dollarydooslab/dollarydoos-master/src/coin"
-	historydb "github.com/dollarydooslab/dollarydoos-master/src/visor/historydb"
+	cipher "github.com/dollarydooslab/dollarydoos/src/cipher"
+	coin "github.com/dollarydooslab/dollarydoos/src/coin"
+	historydb "github.com/dollarydooslab/dollarydoos/src/visor/historydb"
 )
 
 // historyerMock mock

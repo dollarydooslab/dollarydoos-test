@@ -13,9 +13,9 @@ import (
 	"github.com/boltdb/bolt"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
-	"github.com/dollarydooslab/dollarydoos-master/src/coin"
-	"github.com/dollarydooslab/dollarydoos-master/src/testutil"
+	"github.com/dollarydooslab/dollarydoos/src/cipher"
+	"github.com/dollarydooslab/dollarydoos/src/coin"
+	"github.com/dollarydooslab/dollarydoos/src/testutil"
 )
 
 type spending struct {

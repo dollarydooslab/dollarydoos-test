@@ -2,7 +2,7 @@
 
 dollarydoos command line interface
 
-The CLI command APIs can be used directly from a Go application, see [dollarydoos CLI Godoc](https://godoc.org/github.com/dollarydooslab/dollarydoos-master/src/api/cli).
+The CLI command APIs can be used directly from a Go application, see [dollarydoos CLI Godoc](https://godoc.org/github.com/dollarydooslab/dollarydoos/src/api/cli).
 
 <!-- MarkdownTOC autolink="true" bracket="round" -->
 
@@ -65,7 +65,7 @@ The CLI command APIs can be used directly from a Go application, see [dollarydoo
 ## Install
 
 ```bash
-$ cd $GOPATH/src/github.com/dollarydooslab/dollarydoos-master/cmd/cli
+$ cd $GOPATH/src/github.com/dollarydooslab/dollarydoos/cmd/cli
 $ ./install.sh
 ```
 
@@ -74,7 +74,7 @@ $ ./install.sh
 If you are in `bash`, run the following command:
 
 ```bash
-$ PROG=dollarydoos-cli source $GOPATH/src/github.com/dollarydooslab/dollarydoos-master/cmd/cli/autocomplete/bash_autocomplete
+$ PROG=dollarydoos-cli source $GOPATH/src/github.com/dollarydooslab/dollarydoos/cmd/cli/autocomplete/bash_autocomplete
 ```
 
 If you are in `zsh`, please replace the `bash_autocomplete` with `zsh_autocomplete` in the previous command.

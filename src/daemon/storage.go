@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/daemon/pex"
+	"github.com/dollarydooslab/dollarydoos/src/daemon/pex"
 )
 
 // base storage struct

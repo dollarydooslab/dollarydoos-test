@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
-	"github.com/dollarydooslab/dollarydoos-master/src/coin"
-	"github.com/dollarydooslab/dollarydoos-master/src/visor"
+	"github.com/dollarydooslab/dollarydoos/src/cipher"
+	"github.com/dollarydooslab/dollarydoos/src/coin"
+	"github.com/dollarydooslab/dollarydoos/src/visor"
 
-	wh "github.com/dollarydooslab/dollarydoos-master/src/util/http" //http,json helpers
+	wh "github.com/dollarydooslab/dollarydoos/src/util/http" //http,json helpers
 )
 
 // Returns pending transactions
@@ -184,7 +184,7 @@ func injectTransaction(gateway Gatewayer) http.HandlerFunc {
 			return
 		}
 
-		// TODO -- move this to a more general verification layer, see https://github.com/dollarydooslab/dollarydoos-master/issues/1342
+		// TODO -- move this to a more general verification layer, see https://github.com/dollarydooslab/dollarydoos/issues/1342
 		// Check that the transaction does not send to an empty address,
 		// if this is happening, assume there is a bug in the code that generated the transaction
 		for _, o := range txn.Out {

@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
-	bip39 "github.com/dollarydooslab/dollarydoos-master/src/cipher/go-bip39"
-	"github.com/dollarydooslab/dollarydoos-master/src/wallet"
+	"github.com/dollarydooslab/dollarydoos/src/cipher"
+	bip39 "github.com/dollarydooslab/dollarydoos/src/cipher/go-bip39"
+	"github.com/dollarydooslab/dollarydoos/src/wallet"
 )
 
 // Note: Address_gen generates public keys and addresses

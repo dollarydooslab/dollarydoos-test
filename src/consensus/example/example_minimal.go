@@ -9,9 +9,9 @@ import (
 	"fmt"
 	mathrand "math/rand"
 	//
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher/secp256k1-go"
-	"github.com/dollarydooslab/dollarydoos-master/src/consensus"
+	"github.com/dollarydooslab/dollarydoos/src/cipher"
+	"github.com/dollarydooslab/dollarydoos/src/cipher/secp256k1-go"
+	"github.com/dollarydooslab/dollarydoos/src/consensus"
 )
 
 var Cfg_simu_num_node int = 5

@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/util/file"
+	"github.com/dollarydooslab/dollarydoos/src/util/file"
 )
 
 func Example() {

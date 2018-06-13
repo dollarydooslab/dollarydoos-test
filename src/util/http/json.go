@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
-	"github.com/dollarydooslab/dollarydoos-master/src/util/droplet"
-	"github.com/dollarydooslab/dollarydoos-master/src/util/logging"
+	"github.com/dollarydooslab/dollarydoos/src/cipher"
+	"github.com/dollarydooslab/dollarydoos/src/util/droplet"
+	"github.com/dollarydooslab/dollarydoos/src/util/logging"
 )
 
 // SendJSONOr500 writes an object as JSON, writing a 500 error if it fails

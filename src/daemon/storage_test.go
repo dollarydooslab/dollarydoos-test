@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/daemon/pex"
-	"github.com/dollarydooslab/dollarydoos-master/src/util/utc"
+	"github.com/dollarydooslab/dollarydoos/src/daemon/pex"
+	"github.com/dollarydooslab/dollarydoos/src/util/utc"
 )
 
 func TestStoreAdd(t *testing.T) {

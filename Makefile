@@ -128,7 +128,7 @@ integration-test-disable-seed-api: ## Run enable seed api integration test
 	./ci-scripts/integration-test-disable-seed-api.sh
 
 cover: ## Runs tests on ./src/ with HTML code coverage
-	go test -cover -coverprofile=cover.out -coverpkg=github.com/dollarydooslab/dollarydoos-master/... ./src/...
+	go test -cover -coverprofile=cover.out -coverpkg=github.com/dollarydooslab/dollarydoos/... ./src/...
 	go tool cover -html=cover.out
 
 install-linters: ## Install linters
@@ -144,9 +144,9 @@ install-deps-libc: configure-build ## Install locally dependencies for testing l
 	ls -1 $(BUILD_DIR)/usr/tmp/criterion-v2.3.2/include | xargs -I NAME mv $(BUILD_DIR)/usr/tmp/criterion-v2.3.2/include/NAME $(BUILD_DIR)/usr/include/NAME
 
 format: ## Formats the code. Must have goimports installed (use make install-linters).
-	goimports -w -local github.com/dollarydooslab/dollarydoos-master ./cmd
-	goimports -w -local github.com/dollarydooslab/dollarydoos-master ./src
-	goimports -w -local github.com/dollarydooslab/dollarydoos-master ./lib
+	goimports -w -local github.com/dollarydooslab/dollarydoos ./cmd
+	goimports -w -local github.com/dollarydooslab/dollarydoos ./src
+	goimports -w -local github.com/dollarydooslab/dollarydoos ./lib
 
 install-deps-ui:  ## Install the UI dependencies
 	cd $(GUI_STATIC_DIR) && npm install

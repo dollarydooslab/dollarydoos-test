@@ -4,11 +4,11 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
-	"github.com/dollarydooslab/dollarydoos-master/src/daemon"
-	"github.com/dollarydooslab/dollarydoos-master/src/util/droplet"
-	wh "github.com/dollarydooslab/dollarydoos-master/src/util/http" //http,json helpers
-	"github.com/dollarydooslab/dollarydoos-master/src/visor"
+	"github.com/dollarydooslab/dollarydoos/src/cipher"
+	"github.com/dollarydooslab/dollarydoos/src/daemon"
+	"github.com/dollarydooslab/dollarydoos/src/util/droplet"
+	wh "github.com/dollarydooslab/dollarydoos/src/util/http" //http,json helpers
+	"github.com/dollarydooslab/dollarydoos/src/visor"
 )
 
 // CoinSupply records the coin supply info

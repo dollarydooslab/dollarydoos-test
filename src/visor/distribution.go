@@ -1,7 +1,7 @@
 package visor
 
 import (
-	"github.com/dollarydooslab/dollarydoos-master/src/coin"
+	"github.com/dollarydooslab/dollarydoos/src/coin"
 )
 
 const (

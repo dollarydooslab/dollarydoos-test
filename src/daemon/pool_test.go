@@ -2,7 +2,7 @@ package daemon
 
 import (
 	"time"
-	//"github.com/dollarydooslab/dollarydoos-master/src/daemon/gnet"
+	//"github.com/dollarydooslab/dollarydoos/src/daemon/gnet"
 )
 
 // func TestInitPool(t *testing.T) {

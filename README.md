@@ -1,8 +1,8 @@
 # dollarydoos
 
 [![Build Status](https://travis-ci.org/dollarydooslab/dollarydoos.svg)](https://travis-ci.org/dollarydooslab/dollarydoos)
-[![GoDoc](https://godoc.org/github.com/dollarydooslab/dollarydoos-master?status.svg)](https://godoc.org/github.com/dollarydooslab/dollarydoos-master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/dollarydooslab/dollarydoos-master)](https://goreportcard.com/report/github.com/dollarydooslab/dollarydoos-master)
+[![GoDoc](https://godoc.org/github.com/dollarydooslab/dollarydoos?status.svg)](https://godoc.org/github.com/dollarydooslab/dollarydoos)
+[![Go Report Card](https://goreportcard.com/badge/github.com/dollarydooslab/dollarydoos)](https://goreportcard.com/report/github.com/dollarydooslab/dollarydoos)
 
 dollarydoos is a next-generation cryptocurrency.
 
@@ -71,25 +71,25 @@ dollarydoos supports go1.10+.
 ### Go get dollarydoos
 
 ```sh
-go get github.com/dollarydooslab/dollarydoos-master/...
+go get github.com/dollarydooslab/dollarydoos/...
 ```
 
-This will download `github.com/dollarydooslab/dollarydoos-master` to `$GOPATH/src/github.com/dollarydooslab/dollarydoos-master`.
+This will download `github.com/dollarydooslab/dollarydoos` to `$GOPATH/src/github.com/dollarydooslab/dollarydoos`.
 
-You can also clone the repo directly with `git clone https://github.com/dollarydooslab/dollarydoos-master`,
-but it must be cloned to this path: `$GOPATH/src/github.com/dollarydooslab/dollarydoos-master`.
+You can also clone the repo directly with `git clone https://github.com/dollarydooslab/dollarydoos`,
+but it must be cloned to this path: `$GOPATH/src/github.com/dollarydooslab/dollarydoos`.
 
 ### Run dollarydoos from the command line
 
 ```sh
-cd $GOPATH/src/github.com/dollarydooslab/dollarydoos-master
+cd $GOPATH/src/github.com/dollarydooslab/dollarydoos
 make run
 ```
 
 ### Show dollarydoos node options
 
 ```sh
-cd $GOPATH/src/github.com/dollarydooslab/dollarydoos-master
+cd $GOPATH/src/github.com/dollarydooslab/dollarydoos
 make run-help
 ```
 
@@ -98,7 +98,7 @@ make run-help
 Example:
 
 ```sh
-cd $GOPATH/src/github.com/dollarydooslab/dollarydoos-master
+cd $GOPATH/src/github.com/dollarydooslab/dollarydoos
 make ARGS="--launch-browser=false -data-dir=/custom/path" run
 ```
 
@@ -145,7 +145,7 @@ to the branch, a tag or a commit you specify on that variable.
 Example
 
 ```sh
-$ git clone https://github.com/dollarydooslab/dollarydoos-master
+$ git clone https://github.com/dollarydooslab/dollarydoos
 $ cd dollarydoos
 $ dollarydoos_VERSION=v0.23.0
 $ docker build -f docker/images/mainnet/Dockerfile \
@@ -455,7 +455,7 @@ Follow the [Tor Project's instructions for verifying signatures](https://www.tor
 
 If you can't or don't want to import the keys from a keyserver, the signing key is available in the repo: [gz-c.asc](gz-c.asc).
 
-Releases and their signatures can be found on the [releases page](https://github.com/dollarydooslab/dollarydoos-master/releases).
+Releases and their signatures can be found on the [releases page](https://github.com/dollarydooslab/dollarydoos/releases).
 
 Instructions for generating a PGP key, publishing it, signing the tags and binaries:
 https://gist.github.com/gz-c/de3f9c43343b2f1a27c640fe529b067c

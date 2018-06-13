@@ -4,7 +4,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/util/droplet"
+	"github.com/dollarydooslab/dollarydoos/src/util/droplet"
 )
 
 // RichlistBalance holds info an address balance holder

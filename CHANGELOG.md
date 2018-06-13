@@ -24,7 +24,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Add `POST /wallet/seed` API endpoint, returns the seed of an encrypted wallet. Unencrypted wallets will not expose their seeds over the API. Requires `-enable-seed-api` option
 - `-enable-seed-api` option to enable `POST /wallet/seed`
 - Add `"size"` to block API response data (affects `GET /block`, `GET /blocks` and `GET /last_blocks`)
-- Write [specification for dollarydoos URIs](https://github.com/dollarydooslab/dollarydoos-master#uri-specification) (based upon bip21)
+- Write [specification for dollarydoos URIs](https://github.com/dollarydooslab/dollarydoos#uri-specification) (based upon bip21)
 
 ### Fixed
 
@@ -239,15 +239,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - #360 Node will crash when do ctrl+c while downloading blocks
 - #350 Wallet name always 'undefined' after loading wallet from seed
 
-[Unreleased]: https://github.com/dollarydooslab/dollarydoos-master/compare/master...develop
-[0.23.0]: https://github.com/dollarydooslab/dollarydoos-master/compare/v0.22.0...v0.23.0
-[0.22.0]: https://github.com/dollarydooslab/dollarydoos-master/compare/v0.21.1...v0.22.0
-[0.21.1]: https://github.com/dollarydooslab/dollarydoos-master/compare/v0.21.0...v0.21.1
-[0.21.0]: https://github.com/dollarydooslab/dollarydoos-master/compare/v0.20.4...v0.21.0
-[0.20.4]: https://github.com/dollarydooslab/dollarydoos-master/compare/v0.20.3...v0.20.4
-[0.20.3]: https://github.com/dollarydooslab/dollarydoos-master/compare/v0.20.2...v0.20.3
-[0.20.2]: https://github.com/dollarydooslab/dollarydoos-master/compare/v0.20.1...v0.20.2
-[0.20.1]: https://github.com/dollarydooslab/dollarydoos-master/compare/v0.20.0...v0.20.1
-[0.20.0]: https://github.com/dollarydooslab/dollarydoos-master/compare/v0.19.1...v0.20.0
-[0.19.1]: https://github.com/dollarydooslab/dollarydoos-master/compare/v0.19.0...v0.19.1
-[0.19.0]: https://github.com/dollarydooslab/dollarydoos-master/commit/dd924e1f2de8fab945e05b3245dbeabf267f2910
+[Unreleased]: https://github.com/dollarydooslab/dollarydoos/compare/master...develop
+[0.23.0]: https://github.com/dollarydooslab/dollarydoos/compare/v0.22.0...v0.23.0
+[0.22.0]: https://github.com/dollarydooslab/dollarydoos/compare/v0.21.1...v0.22.0
+[0.21.1]: https://github.com/dollarydooslab/dollarydoos/compare/v0.21.0...v0.21.1
+[0.21.0]: https://github.com/dollarydooslab/dollarydoos/compare/v0.20.4...v0.21.0
+[0.20.4]: https://github.com/dollarydooslab/dollarydoos/compare/v0.20.3...v0.20.4
+[0.20.3]: https://github.com/dollarydooslab/dollarydoos/compare/v0.20.2...v0.20.3
+[0.20.2]: https://github.com/dollarydooslab/dollarydoos/compare/v0.20.1...v0.20.2
+[0.20.1]: https://github.com/dollarydooslab/dollarydoos/compare/v0.20.0...v0.20.1
+[0.20.0]: https://github.com/dollarydooslab/dollarydoos/compare/v0.19.1...v0.20.0
+[0.19.1]: https://github.com/dollarydooslab/dollarydoos/compare/v0.19.0...v0.19.1
+[0.19.0]: https://github.com/dollarydooslab/dollarydoos/commit/dd924e1f2de8fab945e05b3245dbeabf267f2910

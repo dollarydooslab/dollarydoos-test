@@ -12,7 +12,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/util/logging"
+	"github.com/dollarydooslab/dollarydoos/src/util/logging"
 )
 
 var (

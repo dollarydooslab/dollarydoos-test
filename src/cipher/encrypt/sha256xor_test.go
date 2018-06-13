@@ -9,9 +9,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
-	secp256k1 "github.com/dollarydooslab/dollarydoos-master/src/cipher/secp256k1-go"
-	"github.com/dollarydooslab/dollarydoos-master/src/testutil"
+	"github.com/dollarydooslab/dollarydoos/src/cipher"
+	secp256k1 "github.com/dollarydooslab/dollarydoos/src/cipher/secp256k1-go"
+	"github.com/dollarydooslab/dollarydoos/src/testutil"
 )
 
 func TestEncrypt(t *testing.T) {

@@ -4,7 +4,7 @@
 // 20161025 - Code revision by user johnstuartmill.
 package consensus
 
-//"github.com/dollarydooslab/dollarydoos-master/src/cipher"
+//"github.com/dollarydooslab/dollarydoos/src/cipher"
 
 ////////////////////////////////////////////////////////////////////////////////
 type ConnectionManagerInterface interface {

@@ -22,10 +22,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/daemon/gnet"
+	"github.com/dollarydooslab/dollarydoos/src/daemon/gnet"
 	//
-	"github.com/dollarydooslab/dollarydoos-master/src/cipher"
-	"github.com/dollarydooslab/dollarydoos-master/src/consensus"
+	"github.com/dollarydooslab/dollarydoos/src/cipher"
+	"github.com/dollarydooslab/dollarydoos/src/consensus"
 )
 
 var Cfg_print_config bool = true

@@ -9,7 +9,7 @@ The API interfaces do not support authentication or encryption so they should on
 
 If your application is written in Go, you can use these client libraries to interface with the node:
 
-* [dollarydoos REST API Client Godoc](https://godoc.org/github.com/dollarydooslab/dollarydoos-master/src/gui#Client)
+* [dollarydoos REST API Client Godoc](https://godoc.org/github.com/dollarydooslab/dollarydoos/src/gui#Client)
 
 The wallet APIs in the REST API operate on wallets loaded from and saved to `~/.dollarydoos/wallets`.
 
@@ -58,11 +58,11 @@ and to use the CLI tool for wallet operations (seed and address generation, tran
 
 ### dollarydoos REST API Client Documentation
 
-[dollarydoos REST API Client](https://godoc.org/github.com/dollarydooslab/dollarydoos-master/src/gui#Client)
+[dollarydoos REST API Client](https://godoc.org/github.com/dollarydooslab/dollarydoos/src/gui#Client)
 
 ### dollarydoos Go Library Documentation
 
-[dollarydoos Godoc](https://godoc.org/github.com/dollarydooslab/dollarydoos-master)
+[dollarydoos Godoc](https://godoc.org/github.com/dollarydooslab/dollarydoos)
 
 ### libdollarydoos Documentation
 
@@ -91,7 +91,7 @@ To check address outputs, call `GET /outputs?addrs=`. If you only want the balan
 
 #### Using dollarydoos as a library in a Go application
 
-We recommend using the [dollarydoos REST API Client](https://godoc.org/github.com/dollarydooslab/dollarydoos-master/src/gui#Client).
+We recommend using the [dollarydoos REST API Client](https://godoc.org/github.com/dollarydooslab/dollarydoos/src/gui#Client).
 
 ### Sending coins
 
@@ -126,7 +126,7 @@ configured data directory (which is `$HOME/.dollarydoos/wallets` by default).
 
 #### Using dollarydoos as a library in a Go application
 
-A REST API client is also available: [dollarydoos REST API Client Godoc](https://godoc.org/github.com/dollarydooslab/dollarydoos-master/src/gui#Client).
+A REST API client is also available: [dollarydoos REST API Client Godoc](https://godoc.org/github.com/dollarydooslab/dollarydoos/src/gui#Client).
 
 #### Coinhours
 Transaction fees in dollarydoos is paid in coinhours and is currently set to `50%`,
@@ -166,7 +166,7 @@ Not directly supported, but API calls that have an address argument will return 
 
 #### Using dollarydoos as a library in a Go application
 
-https://godoc.org/github.com/dollarydooslab/dollarydoos-master/src/cipher#DecodeBase58Address
+https://godoc.org/github.com/dollarydooslab/dollarydoos/src/cipher#DecodeBase58Address
 
 ```go
 if _, err := cipher.DecodeBase58Address(address); err != nil {
@@ -189,7 +189,7 @@ See the [libdollarydoos documentation](/lib/cgo/README.md) for usage instruction
 
 #### Using dollarydoos as a library in a Go application
 
-Use the [dollarydoos REST API Client](https://godoc.org/github.com/dollarydooslab/dollarydoos-master/src/gui#Client)
+Use the [dollarydoos REST API Client](https://godoc.org/github.com/dollarydooslab/dollarydoos/src/gui#Client)
 
 ### Checking dollarydoos node status
 

@@ -3,7 +3,7 @@ package elapse
 import (
 	"time"
 
-	"github.com/dollarydooslab/dollarydoos-master/src/util/logging"
+	"github.com/dollarydooslab/dollarydoos/src/util/logging"
 )
 
 // Elapser measures time elapsed for an operation
